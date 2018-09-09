@@ -1,0 +1,8 @@
+applications:
+- name: jasmineledger
+  memory: 32M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  routes:
+    - route: www.jasmineledger.com
+    - route: jasmineledger.com

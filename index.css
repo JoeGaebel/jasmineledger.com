@@ -1,0 +1,22 @@
+.iframe-wrapper {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#heading {
+  font-size: 100px;
+}
+
+iframe {
+  position: relative;
+  top: -50px;
+  border: none;
+}
